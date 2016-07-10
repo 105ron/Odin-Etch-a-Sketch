@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+
+		<title>Etch A Sketch Odin Challenge</title>
+	</head>
+	<body>
+		
+  	<div id = "container"> 
+		<div id = "header">
+			<h1>The Odin Etch-a-Sketch Challenge</h1>
+			<p id = "codeby">Coding by Rhys Brooker</p>
+		</div>
+		<div id = "buttoncon">
+			<button class = "restart buttons"><a href = "#">Restart</a></button>   <!-- For the drop down menu --> 
+			 <div class="dropdown">
+  				<button onclick="dropDownFunction()" class="dropbtn">Colours</button>
+  				<div id="myDropdown" class="dropdown-content">
+    				<a class = "coloroption" data-color = "black" ahref = "#">Black</a>
+    				<a class = "coloroption" data-color = "red" ahref = "#">Red</a>
+    				<a class = "coloroption" data-color = "yellow" ahref = "#">Yellow</a>
+					<a class = "coloroption" data-color = "blue" ahref = "#">Blue</a>
+    				<a class = "coloroption" data-color = "purple" ahref = "#">Purple</a>
+    				<a class = "coloroption" data-color = "random" ahref = "#">Random</a>
+  				</div>
+			</div>
+			<button id = "squaresbuttons"><a href = "#">Squares</a></button>
+			<button class = "trail buttons"><a class = "coloroption" data-color = "trail" href = "#">Trail</a></button>
+		</div>
+		<div id = "grid">
+		</div>
+  	</div>
+	</body>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+</html>
+
