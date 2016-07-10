@@ -4,7 +4,7 @@ $(document).ready(function() {
 	  	createEtch (numSquares, squareColor);    //Creates grid to start the site
 		$('.restart').click(function() {			
 				$('.etches').remove();
-				createEtch (numSquares, squareColor);
+				createEtch (numSquares, "black");
 			//$('.etches').addClass('coloredBlank'); Did not reset coloured in squares...
 		});
 		$('.coloroption').click(function() {						/*selection from colour drop down or trail button pressed */
