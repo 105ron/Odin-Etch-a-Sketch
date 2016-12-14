@@ -13,11 +13,13 @@ html {
 	text-align: center;
 	margin-top: -20px;
 }
+
 #buttoncon {
 	height: 40px;
 	width: 800px;
 	text-align: center;
 }
+
 a {
 	text-decoration: none;
 	color: black;
@@ -25,51 +27,70 @@ a {
 }
 button {
 	position:relative; 
+  background-color: #f2f2f2;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  padding: 5px 12px;
+  margin: 0 9px;
 }
+
+button:hover {
+  background-color: #eaeaea;
+}
+
 /*.dropbtn, button {
     background-color: #4484F1;
 }*/
+
 h1 {
 	font-size: 2em; 
 	font-family: sans-serif;
 	font-weight: bold;
 	color: #000099;
 }
+
 #codeby {
 	font-style: italic;
 	font-weight: bold;
 	font-family: serif;
 	margin-top: -20px;
 }
+
 #container {
 	border: 5px solid black;
 	height: 600px;
 	width: 800px;
 	margin: auto;
 }
+
 #grid {
 	width:450px;
 	height: 450px;
 	margin:auto;
 }
+
 .etches {
 	background: #ebebe0;
 	padding:0;
-    margin:0;
+  margin:0;
 	margin-left: -2px;
 	margin-top: -2px;
-    float: left;
+  float: left;
 	border: 1px solid black;
 	display: inline-block;
 }
+
 .coloredIn {
   background-color: black;
 }
+
 .coloredBlank {
 	background-color: yellow;
 }
+
 /* Below is for the drop down menu */
  /* Dropdown Button */
+
 .dropbtn {
     cursor: pointer;
 }
